@@ -59,10 +59,10 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 
 - **Référence CVE** : CVE-2023-4911
 - **Description** : Faille dans la bibliothèque GNU C (glibc) permettant une élévation de privilèges locale sur Linux.
-  **Éléments d’infrastructure concernés** : Systèmes Linux utilisant glibc
-  **Score CVSS** : 7.8
-  **Exploit public** : Oui
-  **Score EPSS** : 0.78
+-  **Éléments d’infrastructure concernés** : Systèmes Linux utilisant glibc
+-  **Score CVSS** : 7.8
+-  **Exploit public** : Oui
+-  **Score EPSS** : 0.78
 
 ![alt text](images/cvss-loonely.png)
 ![alt text](images/exploit-loonely.png)
@@ -73,10 +73,10 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 
 - **Référence CVE** : CVE-2023-4966
 - **Description** : Faille dans Citrix NetScaler Gateway permettant la fuite de données sensibles.
-  **Éléments d’infrastructure concernés** : Citrix NetScaler ADC et Gateway
-  **Score CVSS** : 9.4
-  **Exploit public** : Oui
-  **Score EPSS** : 0.94
+-  **Éléments d’infrastructure concernés** : Citrix NetScaler ADC et Gateway
+-  **Score CVSS** : 9.4
+-  **Exploit public** : Oui
+-  **Score EPSS** : 0.94
 
 ![alt text](images/cve-cvss-citrix.png)
 ![alt text](images/epss-citrix.png)
@@ -91,5 +91,6 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - EPSS
 - Avast
 - VDI
+
 
 
