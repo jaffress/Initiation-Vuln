@@ -9,7 +9,7 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - **EPSS (Exploit Prediction Scoring System)** : Score qui estime la probabilité qu’une vulnérabilité soit exploitée prochainement.
 - **Exploit** : Code ou une méthode permettant d’exploiter la vulnérabilité.
 
-# Rapport : Classification des vulnérabilités
+# Classification des vulnérabilités
 
 **Auteur :** Elif Jaffres
 
@@ -92,6 +92,7 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - EPSS
 - Avast
 - VDI
+
 
 
 
