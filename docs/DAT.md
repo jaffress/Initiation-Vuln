@@ -18,10 +18,10 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 
 - **Référence CVE** : CVE-2017-0144
 - **Description** : Faille dans le protocole SMBv1 de Windows permettant l’exécution de code à distance par un attaquant.
-  **Éléments d’infrastructure concernés** : Systèmes Windows utilisant SMBv1
-  **Score CVSS** : 8.1
-  **Exploit public** : Oui
-  **Score EPSS** : 0.97
+-  **Éléments d’infrastructure concernés** : Systèmes Windows utilisant SMBv1
+-  **Score CVSS** : 8.1
+- **Exploit public** : Oui
+-  **Score EPSS** : 0.97
 
   ![alt text](images/CVSS-eternal-blue.png)
   ![alt text](images/exploit-eternal-blue.png)
@@ -33,10 +33,10 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 
 - **Référence CVE** : CVE-2017-13077 (....13082)
 - **Description** : KRACK est une faille dans le protocole WPA2 permettant à un attaquant d’intercepter et de décrypter le trafic Wi-Fi.
-  **Éléments d’infrastructure concernés** : Tous les appareils utilisant le Wi-Fi WPA2
-  **Score CVSS** : 5.4
-  **Exploit public** : Non, mais existe des scripts sur github; [https://github.com/vanhoefm/krackattacks-scripts]([https://github.com/vanhoefm/krackattacks-scripts]())
-  **Score EPSS** : 0.77
+-  **Éléments d’infrastructure concernés** : Tous les appareils utilisant le Wi-Fi WPA2
+-  **Score CVSS** : 5.4
+-  **Exploit public** : Non, mais existe des scripts sur github; [https://github.com/vanhoefm/krackattacks-scripts]([https://github.com/vanhoefm/krackattacks-scripts]())
+-  **Score EPSS** : 0.77
 
   ![alt text](images/CVE-krack.png)
   ![alt text](images/cvss-epss-krack.png)
@@ -47,10 +47,10 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 
 - **Référence CVE** : CVE-2021-44228
 - **Description** : Faille critique dans la bibliothèque Log4j permettant l’exécution de code à distance via des journaux malveillants.
-  **Éléments d’infrastructure concernés** : Applications utilisant Log4j (serveurs web, applications métiers)
-  **Score CVSS** : 10.0
-  **Exploit public** : Oui
-  **Score EPSS** : 0.97
+-  **Éléments d’infrastructure concernés** : Applications utilisant Log4j (serveurs web, applications métiers)
+-  **Score CVSS** : 10.0
+-  **Exploit public** : Oui
+-  **Score EPSS** : 0.97
  ![alt text](images/cvss-log4shell.png) 
  ![alt text](images/exploit-log4shell.png)
  ![alt text](images/epss-log4shell.png)
@@ -91,4 +91,5 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - EPSS
 - Avast
 - VDI
+
 
