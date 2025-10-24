@@ -2,12 +2,12 @@
 
 Une vulnérabilité est une faille ou une faiblesse dans un système informatique (logiciel, matériel, réseau…) qui peut être exploitée par un attaquant pour compromettre la sécurité (vol de données, prise de contrôle, etc.).
 
-**Les outils/notations à connaître :**
+**Les notations:**
 
-- **CVE (Common Vulnerabilities and Exposures)** : un identifiant unique pour chaque vulnérabilité.
-- **CVSS (Common Vulnerability Scoring System)** : un score qui mesure la gravité d’une vulnérabilité.
-- **EPSS (Exploit Prediction Scoring System)** : un score qui estime la probabilité qu’une vulnérabilité soit exploitée prochainement.
-- **Exploit** : un code ou une méthode permettant d’exploiter la vulnérabilité.
+- **CVE (Common Vulnerabilities and Exposures)** : Identifiant unique pour chaque vulnérabilité.
+- **CVSS (Common Vulnerability Scoring System)** : Score qui mesure la gravité d’une vulnérabilité.
+- **EPSS (Exploit Prediction Scoring System)** : Score qui estime la probabilité qu’une vulnérabilité soit exploitée prochainement.
+- **Exploit** : Code ou une méthode permettant d’exploiter la vulnérabilité.
 
 # Rapport : Classification des vulnérabilités
 
@@ -20,7 +20,7 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - **Description** : Faille dans le protocole SMBv1 de Windows permettant l’exécution de code à distance par un attaquant.
   **Éléments d’infrastructure concernés** : Systèmes Windows utilisant SMBv1
   **Score CVSS** : 8.1
-  **Exploit public** : Oui, par exemple exploit-db #42031
+  **Exploit public** : Oui
   **Score EPSS** : 0.97
 
   ![alt text](images/CVSS-eternal-blue.png)
@@ -47,9 +47,9 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 
 - **Référence CVE** : CVE-2021-44228
 - **Description** : Faille critique dans la bibliothèque Log4j permettant l’exécution de code à distance via des journaux malveillants.
-  **Éléments d’infrastructure concernés** : Applications Java utilisant Log4j (serveurs web, applications métiers, etc.)
+  **Éléments d’infrastructure concernés** : Applications utilisant Log4j (serveurs web, applications métiers)
   **Score CVSS** : 10.0
-  **Exploit public** : Oui, par exemple exploit-db #50581
+  **Exploit public** : Oui
   **Score EPSS** : 0.97
  ![alt text](images/cvss-log4shell.png) 
  ![alt text](images/exploit-log4shell.png)
@@ -61,7 +61,7 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - **Description** : Faille dans la bibliothèque GNU C (glibc) permettant une élévation de privilèges locale sur Linux.
   **Éléments d’infrastructure concernés** : Systèmes Linux utilisant glibc
   **Score CVSS** : 7.8
-  **Exploit public** : Oui, par exemple exploit-db #52002
+  **Exploit public** : Oui
   **Score EPSS** : 0.78
 
 ![alt text](images/cvss-loonely.png)
@@ -75,7 +75,7 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - **Description** : Faille dans Citrix NetScaler Gateway permettant la fuite de données sensibles.
   **Éléments d’infrastructure concernés** : Citrix NetScaler ADC et Gateway
   **Score CVSS** : 9.4
-  **Exploit public** : Oui, par exemple exploit-db #52136
+  **Exploit public** : Oui
   **Score EPSS** : 0.94
 
 ![alt text](images/cve-cvss-citrix.png)
@@ -91,3 +91,4 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - EPSS
 - Avast
 - VDI
+
