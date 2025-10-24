@@ -12,6 +12,7 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 # Rapport : Classification des vulnérabilités
 
 **Auteur :** Elif Jaffres
+
 **Date :** 24/10/2025
 
 ## 1. Eternal Blue
@@ -91,6 +92,7 @@ Une vulnérabilité est une faille ou une faiblesse dans un système informatiqu
 - EPSS
 - Avast
 - VDI
+
 
 
 
